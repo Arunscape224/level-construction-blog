@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 // import HomeParallax from './homeparallax'
 import SocialIcons from './socialIcons'
-import Image from './image'
+import {ProfileImage} from './profileImage'
 
 const HomeBanner = (props) => {
   return (
@@ -18,7 +18,7 @@ const HomeBanner = (props) => {
             <Row xs="1" id="home-banner-row-2" className="border" style={{ height: '50%'}}>
             <Col id="avatar-section" className="col-4 border-right" style={{ position: 'relative',  padding: '20px' }}>
             <div className="d-flex flex-column justify-content-center align-items-stretch" style={{ position: 'relative' }}>
-            <Image/>
+            <ProfileImage/>
             <div className="d-flex flex-column justify-content-center align-items-stretch" style={{textAlign: 'center', paddingBottom: '20px'}}>
             <h4 style={{width: '100%', paddingTop: '20px', fontSize: '1.7rem'}}>Greg Starr</h4>
             <em>Owner / Natural Stone Expert</em>
